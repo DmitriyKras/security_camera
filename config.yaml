@@ -1,0 +1,28 @@
+ORBChecker: true
+ORB:
+  check_every: 3
+  init_every: 3
+  init_matching_ratio: 0.6
+  init_number: 10
+  size_w: 150
+  size_h: 150
+  threshold: 0.6
+  update_base_img_ratio: 0.75
+  update_every: 250
+  update_matching_count_ratio: 0.4
+  verbose: 1
+YOLO:
+  model_path: yolov8n.onnx  # for onnx inference
+  predict_every: 8
+  iou: 0.45
+  confidence: 0.5
+  far_lane: 0.3
+  n_classes: 80
+VIDEO:
+  outdir: video_logs
+print_fps: true
+record_video: false
+source: rtsp://admin:UniVision_74_ceil@192.168.0.74:554/media/video2
+#source: media/test.mp4
+frame_w: 640
+frame_h: 384
