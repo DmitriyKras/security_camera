@@ -11,7 +11,7 @@ Pet project with YOLOv8 onnxruntime inference
 
 [OpenCV contrib 4.5.3](https://github.com/opencv/opencv_contrib/tree/4.5.3)
 
-[onnxruntime] (https://github.com/microsoft/onnxruntime)
+[onnxruntime](https://github.com/microsoft/onnxruntime)
 
 
 ## Installation (Linux)
